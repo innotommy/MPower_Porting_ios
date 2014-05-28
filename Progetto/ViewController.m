@@ -42,7 +42,7 @@
     self.alert.message=@"asdfghj";
     [self.alert addButtonWithTitle:@"stinga"];
     [self.alert show];
-   //commento.
+
     
 }
 
@@ -61,7 +61,7 @@
 {
     NSString *testo = @"sdfljkghsdiofghjskfjghsdf";
     NSString *testo2 = [NSString stringWithFormat:@"testo %@", testo];
-    NSLog(@"Bottone cliccato: %ld | prova: %@", (long)buttonIndex, testo2);
+    NSLog(@"Bottone cliccato: %ld | prova: %@", (long)buttonIndex, testo2);   // log showing each time a button is pressed
 }
 
 @end
