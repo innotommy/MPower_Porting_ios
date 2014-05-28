@@ -42,7 +42,7 @@
     self.alert.message=@"asdfghj";
     [self.alert addButtonWithTitle:@"stinga"];
     [self.alert show];
-    
+   //commento.
     
 }
 
