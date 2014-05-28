@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIAlertViewDelegate>
+@property (nonatomic, strong) UIAlertView *alert;
+- (IBAction)test:(id)sender;
+- (IBAction)prossima_screen:(id)sender;
 
 @end
